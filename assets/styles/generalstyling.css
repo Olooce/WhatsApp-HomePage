@@ -475,8 +475,8 @@ h2 {
   position: absolute;
   padding: 10%;
   border-radius: 15px;
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -511,4 +511,5 @@ h2 {
 }
 .section7 .right_pallet {
   float: right;
+  width: 30%;
 }
