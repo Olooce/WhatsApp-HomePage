@@ -402,7 +402,66 @@ h2 {
   background: transparent;
   max-width: 30%;
 }
+
 .image2 {
   position: absolute;
   margin-top: 20vh;
+  mix-blend-mode: multiply;
+}
+
+.section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150vh;
+  width: 97%;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Section 6*/
+.section6 .left_pallet {
+  position: relative;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  max-width: 30%;
+}
+
+.section6 .right_pallet {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  max-width: 30%;
+}
+.section6 .right_pallet h2 {
+  color: #1c1e21;
+  font-size: 60px;
+  letter-spacing: 1.8px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.section6 .right_pallet p {
+  color: #1c1e21;
+  background: transparent;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  line-height: 25px;
+  text-align: left;
+}
+.section6 .right_pallet a {
+  color: #1c1e21;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  line-height: 16px;
+  text-align: left;
 }
