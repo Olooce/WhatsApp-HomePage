@@ -156,6 +156,7 @@ h4 {
   background: transparent;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -164,7 +165,7 @@ h4 {
 .section1 {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url("/WhatsApp-HomePage/assets/images/background.png");
-  height: 150vh;
+  height: 200vh;
   width: 97%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -316,4 +317,30 @@ h2 {
   width: 50%;
   float: right;
   background: transparent;
+}
+
+.section4 .right_pallet h2 {
+  color: white;
+  font-size: 60px;
+  letter-spacing: 1.8px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.section4 .right_pallet p {
+  color: white;
+  background: transparent;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  line-height: 25px;
+  text-align: left;
+}
+.section4 .right_pallet a {
+  color: white;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  line-height: 16px;
+  text-align: left;
 }
