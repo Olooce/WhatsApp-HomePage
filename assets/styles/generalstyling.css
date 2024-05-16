@@ -465,3 +465,41 @@ h2 {
   line-height: 16px;
   text-align: left;
 }
+
+/*section 7*/
+.section7 {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 150vh;
+  width: 97%;
+  position: absolute;
+  padding: 10%;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section7 .left_pallet {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
+.section7 .left_pallet h2 {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: 1c1E21;
+}
+.section7 .left_pallet p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: 1c1E21;
+}
+.section7 .right_pallet {
+  float: right;
+}
