@@ -500,6 +500,15 @@ h2 {
   text-align: left;
   color: 1c1E21;
 }
+.section7 .left_pallet a {
+  color: #1c1e21;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  line-height: 16px;
+  text-align: left;
+}
 .section7 .right_pallet {
   float: right;
 }
