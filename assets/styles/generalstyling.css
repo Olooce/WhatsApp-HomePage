@@ -346,3 +346,63 @@ h2 {
   line-height: 16px;
   text-align: left;
 }
+
+/*Section 5*/
+.section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150vh;
+  width: 97%;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section5 .left_pallet {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  max-width: 30%;
+}
+.section5 .left_pallet h2 {
+  color: #1c1e21;
+  font-size: 60px;
+  letter-spacing: 1.8px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.section5 .left_pallet p {
+  color: #1c1e21;
+  background: transparent;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  line-height: 25px;
+  text-align: left;
+}
+.section5 .left_pallet a {
+  color: #1c1e21;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.section5 .right_pallet {
+  position: relative;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  max-width: 30%;
+}
+.image2 {
+  position: absolute;
+  margin-top: 20vh;
+}
