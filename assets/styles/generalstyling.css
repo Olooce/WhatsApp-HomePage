@@ -2,7 +2,10 @@
   background-color: #fcf5eb;
   margin: 0;
   padding: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  max-width: 100%;
 }
 
 /*navigation bar*/
@@ -12,15 +15,34 @@ nav {
   position: fixed;
   top: 0; /* Add top: 0 for positioning at the top */
   z-index: 10;
+  opacity: 0.25;
   min-width: 100%;
-  max-height: 10%;
+  max-height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   justify-self: center;
 }
+.logo {
+  width: 5%;
+  float: left;
+  opacity: 1;
+}
 
-nav img {
-  height: 100%;
-  width: 20%;
+.logo img {
+  max-height: 10%;
+  width: 25%;
+  justify-self: center;
+}
+.navigation {
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 5px;
+  padding-top: 5px;
+  justify-content: space-between;
 }
 
 ul {
@@ -30,18 +52,15 @@ ul {
   display: flex;
 }
 
-li {
-  margin-right: 20px;
-}
-
 a {
   text-decoration: none;
   color: black;
   padding: 10px;
+  opacity: 1;
 }
 
 a:hover {
-  background-color: #e0e0e0;
+  text-decoration: solid 2px underline lightgreen;
 }
 
 .dropdown {
@@ -57,9 +76,9 @@ a:hover {
   z-index: 1;
 }
 
-/*.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
-}*/
+}
 
 .arrow {
   margin-left: 5px;
@@ -77,27 +96,33 @@ h4 {
 
 /*section 1*/
 .section1 {
-  background-image: /*linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),*/ url("/WhatsApp-HomePage/assets/images/background.png");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("/WhatsApp-HomePage/assets/images/background.png");
   min-height: 100vh;
-  width: 97%;
+  width: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-top: 6%;
+  margin-left: 20px;
+  margin-left: 20px;
   position: relative;
   padding: 10%;
-  border-radius: 5px;
+  border-radius: 15px;
   align-items: center;
 }
 .section1 .left_pallet {
-  max-width: 50%;
+  max-width: 30%;
   background: transparent;
   max-height: 230px;
+  color: white;
 }
 .section1 .left_pallet > h1,
 h2 {
   background: transparent;
+}
+.section1 .left_pallet > h1 {
+  font-size: 58px;
 }
 .section1 .right_pallet {
   max-width: 50%;
