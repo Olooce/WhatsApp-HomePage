@@ -70,9 +70,9 @@ nav {
   background-color: #fcf5eb;
   padding: 10px;
   position: fixed;
-  top: 0; /* Add top: 0 for positioning at the top */
+  top: 0;
   z-index: 10;
-  opacity: 0.45;
+  /*opacity: 0.45;*/
   width: 100%;
   height: 12vh;
   display: flex;
@@ -217,4 +217,28 @@ h2 {
 .section1 .right_pallet img:last-child {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+/*section 2*/
+.section2 {
+  margin-left: 20px;
+  margin-left: 20px;
+  height: 150vh;
+  width: 97%;
+  position: relative;
+  padding: 10%;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.section2 .image {
+  width: 100%;
+  height: auto;
+}
+.section2 .maneno {
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 1.44px;
+  line-height: 48px;
+  color: #1c1e21;
 }
