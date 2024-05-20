@@ -192,15 +192,14 @@ nav {
 .sec1-con{
  padding:20px 30px;
  width: 100%;
- display: flex;
+ /*display: flex;
  justify-content: space-between;
- flex-direction: column;
+ flex-direction: column;*/
 }
 .section1 {
 
  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url("/WhatsApp-HomePage/assets/images/background.png");
-    /*background:url("/assets/images/background.png");*/
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -703,10 +702,11 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 list-style: none;
+margin: auto;
 } 
 
 .s-con{
-border: 2px solid #white;
-border-radius: 50%;
-width: 100px;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: auto;
 }
