@@ -6,7 +6,8 @@
     <title>
       WhatsApp | Secure and Reliable Free Private Messaging and Calling
     </title>
-    <link rel="stylesheet" href="assets/styles/generalstyling1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles/generalstyling.css" />
     <script scr="assets/js/script.js"></script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
   </head>
@@ -54,9 +55,10 @@
     <!--Main Container-->
     <section class="main_container">
       <!--Section 1-->
+     <div class="sec1-con">
       <section class="section1">
-        <div class="container">
-          <div class="left_pallet">
+        <div class="container-1">
+          <div class="left_pallet ">
             <h1>Message privately</h1>
             <h2>
               Simple, reliable, private messaging and calling for free*,
@@ -64,7 +66,7 @@
             </h2>
             <button class="curve-button">Download</button>
           </div>
-          <div class="right_pallet">
+          <div class="right_pallet " >
             <img src="/WhatsApp-HomePage/assets/images/plim0.png" alt="" />
             <img src="/WhatsApp-HomePage/assets/images/plim1.png" alt="" />
             <img src="/WhatsApp-HomePage/assets/images/plim2.png" />
@@ -75,11 +77,12 @@
           </div>
         </div>
       </section>
+     </div>
 
       <!--Section 2-->
       <section class="section2">
         <div class="container-2">
-          <div class="image"><img src="assets/images/s2im1.png" /></div>
+          <div><img src="assets/images/s2im1.png" /></div>
           <div class="maneno">
             <p>
               With private messaging and calling, you can be yourself, speak
@@ -87,7 +90,7 @@
               matter where they are.
             </p>
           </div>
-          <div class="image"><img src="assets/images/s2im2.png" /></div>
+          <div><img src="assets/images/s2im2.png" /></div>
         </div>
       </section>
 
@@ -144,10 +147,8 @@
             <a href="">Learn more</a>
           </div>
           <div class="right_pallet">
-            <div><img src="assets/images/s5im1.png" /></div>
-            <div class="image2">
-              <img src="assets/images/s5im2.png" />
-            </div>
+            <img class="image51" src="assets/images/s5im1.png" />
+            <img  class="image52" src="assets/images/s5im2.png" />
           </div>
         </div>
       </section>
@@ -156,8 +157,8 @@
       <section class="section6">
         <div class="container">
           <div class="left_pallet">
-            <div><img src="assets/images/s6im1.png" /></div>
-            <div class="image2"><img src="assets/images/s6im2.png" /></div>
+            <img class="image61"src="assets/images/s6im1.png" />
+           <img class="image62" src="assets/images/s6im2.png" />
           </div>
           <div class="right_pallet">
             <h2>Say what you feel</h2>
@@ -174,16 +175,21 @@
       <!--Section 7-->
       <section class="section7">
         <div class="container">
-          <div class="left_pallet"></div>
-          <h2>Transform your business</h2>
-          <p>
+          <div class="left_pallet">
+            <h2 id="section7-h2">Transform your business</h2>
+            <p id="section7-p">
             WhatsApp Business helps you reach your customers globally to deliver
             compelling experiences at scale. Showcase your products and
             services, increase sales, and build relationships all with WhatsApp.
           </p>
           <a href="">Learn more</a>
         </div>
-        <div class="right_pallet"><img src="assets/images/s7im.png" /></div>
+      
+        
+        <div class="right_pallet">
+           <img src="assets/images/s7im.png" />
+        </div>
+      </div>
       </section>
     </section>
     <!-----End of main container----->
@@ -229,17 +235,26 @@
           <li><a href="">Security Advisors</a></li>
         </ul>
       </section>
-
-      <ul class="footer">
+<hr/>
+      <div class="footer">
+      <ul class="in-">
         <li class="left1">
-          <p>2024 &#169; WhatsApp LLC</p>
+          <p>2024 &copy; WhatsApp LLC</p>
         </li>
         <li class="left2"><p>Terms & Privacy Policy</p></li>
-        <li><ul class="socials"></ul></li>
+        <li><ul class="socials">
+          <li> <div class="s-con"><i class="fa-brands fa-twitter"></i></div> </li>
+          <li> <div class="s-con"><i class="fa-brands fa-youtube"></i></div> </li>
+          <li> <div class="s-con"><i class="fa-brands fa-instagram"></i></div> </li>
+          <li> <div class="s-con"><i class="fa-brands fa-facebook"></i></div> </li>
+        </ul></li>
         <li class="right">
-          <select></select>
+          <select><option >English</option>
+  <option>Kiswahili</option>
+  <option >French</option></select>
         </li>
       </ul>
+    </div>
     </section>
   </body>
 </html>
