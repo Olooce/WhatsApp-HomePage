@@ -163,6 +163,7 @@ nav {
 /*Main container*/
 
 .main_container {
+ 
   border-radius: 10px;
   background: transparent;
   display: flex;
@@ -182,6 +183,7 @@ nav {
   clear:both;
   background: transparent;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -190,17 +192,14 @@ nav {
 
 /*section 1*/
 .sec1-con{
- padding:20px 30px;
- width: 100%;
- /*display: flex;
- justify-content: space-between;
- flex-direction: column;*/
+  padding: 5vh 10vh;
 }
+
 .section1 {
 
  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url("/WhatsApp-HomePage/assets/images/background.png");
-  height: 100vh;
+    url("/WhatsApp-HomePage/assets/images/background-m.jpeg");
+  height: 150vh;
   width: 100%;
   background-size: cover;
   display:flex;
@@ -213,7 +212,7 @@ nav {
 
 .section1 .left_pallet {
   max-width: 30%;
-
+  margin: auto;
   background: transparent;
   max-height: 75%;
   color: white;
@@ -223,6 +222,7 @@ nav {
 .section1 .left_pallet > h1,
 h2 {
   background: transparent;
+  margin-bottom: 5vh;
 }
 .section1 .left_pallet > h1 {
   font-size: 80px;
@@ -235,7 +235,7 @@ h2 {
 }
 .section1 .right_pallet {
   max-width: 30%;
-
+  margin: auto;
   background: transparent;
   display: grid;
   grid-template-columns: 1fr;
@@ -708,5 +708,7 @@ margin: auto;
 .s-con{
   border: 2px solid white;
   border-radius: 100%;
-  width: auto;
+  width: 5vh;
+  margin-left: 5vh;
+  align-content: center;
 }

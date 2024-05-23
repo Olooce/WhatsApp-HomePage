@@ -1,0 +1,10 @@
+/* Small Mobile Device */
+@media (max-width: 320px) and (orientation: portrait) {
+  .navigation{
+    display: none;
+  }  
+
+  .dwnld-button{
+    display:none;
+  }
+}
